@@ -3060,3 +3060,5 @@ class MusicBot(discord.Client):
             log.debug("Pausing player in \"{}\" due to unavailability.".format(server.name))
             self.server_specific_data[server]['availability_paused'] = True
             player.pause()
+	
+bot.run(os.environ['BOT_TOKEN'])
