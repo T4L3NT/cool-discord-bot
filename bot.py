@@ -42,6 +42,7 @@ from .json import Json
 from .constants import VERSION as BOTVERSION
 from .constants import DISCORD_MSG_CHAR_LIMIT, AUDIO_CACHE_PATH
 
+api = str(os.eviron.get('RIOT_KEY'))
 
 load_opus_lib()
 
@@ -3060,3 +3061,5 @@ class MusicBot(discord.Client):
             log.debug("Pausing player in \"{}\" due to unavailability.".format(server.name))
             self.server_specific_data[server]['availability_paused'] = True
             player.pause()
+
+	bot.run(str(os.environ['BOT_TOKEN'])
