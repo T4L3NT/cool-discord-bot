@@ -1,0 +1,12 @@
+# Entry removed Mon Jun 11 20:40:07 2018
+# Reason: ERROR: This video is not available.
+https://youtube.com/watch?v=ba7vMzLbU7w
+
+################################
+
+# Entry removed Mon Jun 11 20:40:38 2018
+# Reason: ERROR: This video contains content from SME, who has blocked it in your country on copyright grounds.
+https://youtube.com/watch?v=8NsJ84YV1oA
+
+################################
+

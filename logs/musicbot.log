@@ -1,0 +1,62 @@
+[34.593105316] 2018-06-12 18:52:34,001 - INFO - launcher: Starting sanity checks
+[35.093784332] 2018-06-12 18:52:34,001 - INFO - launcher: Checking for Python 3.5+
+[35.594940186] 2018-06-12 18:52:34,002 - INFO - launcher: Checking console encoding
+[35.594940186] 2018-06-12 18:52:34,002 - INFO - launcher: Setting console encoding to UTF-8
+[36.096811295] 2018-06-12 18:52:34,002 - INFO - launcher: Ensuring we're in the right environment
+[38.102149963] 2018-06-12 18:52:34,004 - INFO - launcher: Adding local bins/ folder to path
+[38.603067398] 2018-06-12 18:52:34,005 - INFO - launcher: Required checks passed.
+[40.107727051] 2018-06-12 18:52:34,006 - INFO - launcher: Optional checks passed.
+[40.611028671] 2018-06-12 18:52:34,007 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.3149967193603516] 2018-06-12 18:52:35,281 - WARNING - musicbot.config | In config.py::MainThread(28196), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.3154985904693604] 2018-06-12 18:52:35,282 - INFO - musicbot.config | In config.py::MainThread(28196), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.3200097084045410] 2018-06-12 18:52:35,286 - DEBUG - musicbot.json | In json.py::MainThread(28196), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.6448733806610107] 2018-06-12 18:52:35,611 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 227 in _setup_logging: Set logging level to INFO
+[1.6448733806610107] 2018-06-12 18:52:35,611 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 84 in __init__: Starting MusicBot 1.9.7
+[1.6458761692047119] 2018-06-12 18:52:35,612 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 90 in __init__: Loaded autoplaylist with 2529 entries
+[4.5396246910095215] 2018-06-12 18:52:38,506 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 1074 in on_ready: Connection established, ready to go.
+[4.5401272773742676] 2018-06-12 18:52:38,506 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 339 in _cache_app_info: Caching app info
+[4.5802330970764160] 2018-06-12 18:52:38,546 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.5817370414733887] 2018-06-12 18:52:38,548 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 905 in _scheck_server_permissions: Checking server permissions
+[4.5817370414733887] 2018-06-12 18:52:38,548 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.5817370414733887] 2018-06-12 18:52:38,548 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 913 in _scheck_configs: Validating config
+[4.5822401046752930] 2018-06-12 18:52:38,548 - DEBUG - musicbot.config | In config.py::MainThread(28196), line 212 in async_validate: Validating options...
+[4.5822401046752930] 2018-06-12 18:52:38,548 - DEBUG - musicbot.config | In config.py::MainThread(28196), line 226 in async_validate: Acquired owner id via API
+[4.5822401046752930] 2018-06-12 18:52:38,548 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 916 in _scheck_configs: Validating permissions config
+[4.5822401046752930] 2018-06-12 18:52:38,548 - DEBUG - musicbot.permissions | In permissions.py::MainThread(28196), line 64 in async_validate: Validating permissions...
+[4.5827426910400391] 2018-06-12 18:52:38,549 - DEBUG - musicbot.permissions | In permissions.py::MainThread(28196), line 68 in async_validate: Fixing automatic owner group
+[4.5827426910400391] 2018-06-12 18:52:38,549 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 1091 in on_ready: Connected: 455886394796146698/Zero#7592
+[4.5837433338165283] 2018-06-12 18:52:38,550 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 1099 in on_ready: Owner:     238470567416692746/Flurryz#7575
+
+[4.5847456455230713] 2018-06-12 18:52:38,551 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 1102 in on_ready: Server List:
+[4.5852560997009277] 2018-06-12 18:52:38,551 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 1105 in on_ready:  - KKK | v3.0 - Cam's Regime kek
+[4.5862522125244141] 2018-06-12 18:52:38,552 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 1151 in on_ready: Not bound to any text channels
+[4.5862522125244141] 2018-06-12 18:52:38,552 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 1177 in on_ready: Not autojoining any voice channels
+[4.5878496170043945] 2018-06-12 18:52:38,554 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 272 in _join_startup_channels: Found owner in "Main 0.1"
+[4.5887551307678223] 2018-06-12 18:52:38,555 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 281 in _join_startup_channels: Attempting to join KKK | v3.0 - Cam's Regime kek/Main 0.1
+[4.5892584323883057] 2018-06-12 18:52:38,555 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 452 in get_voice_client: Connection attempt 1 to Main 0.1
+[4.5897610187530518] 2018-06-12 18:52:38,556 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[4.5902593135833740] 2018-06-12 18:52:38,556 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[4.5907652378082275] 2018-06-12 18:52:38,557 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.6559357643127441] 2018-06-12 18:52:38,622 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 2938 in on_voice_state_update: Voice state update for 455886394796146698/Zero#7592 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, CONNECT]
+[4.6559357643127441] 2018-06-12 18:52:38,622 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 2949 in on_voice_state_update: 455886394796146698/Zero#7592 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[4.6569378376007080] 2018-06-12 18:52:38,623 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.7105793952941895] 2018-06-12 18:52:38,677 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[5.2470536231994629] 2018-06-12 18:52:39,213 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[5.2470536231994629] 2018-06-12 18:52:39,213 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 478 in get_voice_client: Connected in 0.7s
+[5.2470536231994629] 2018-06-12 18:52:39,213 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 479 in get_voice_client: Connected to KKK | v3.0 - Cam's Regime kek/Main 0.1
+[5.2480561733245850] 2018-06-12 18:52:39,214 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 849 in deserialize_queue: Deserializing queue for 224570641326538753
+[5.4285366535186768] 2018-06-12 18:52:39,395 - DEBUG - musicbot.bot | In bot.py::MainThread(28196), line 570 in get_player: Created player via deserialization for server 224570641326538753 with 0 entries
+[5.4285366535186768] 2018-06-12 18:52:39,395 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 297 in _join_startup_channels: Joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[5.4295389652252197] 2018-06-12 18:52:39,396 - VOICEDEBUG - musicbot.player | In player.py::MainThread(28196), line 373 in websocket_check: Starting websocket check loop for KKK | v3.0 - Cam's Regime kek
+[7.7602407932281494] 2018-06-12 18:52:41,726 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 2734 in on_message: 238470567416692746/Flurryz#7575: r.help
+[9.9450895786285400] 2018-06-12 18:52:43,911 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 2734 in on_message: 238470567416692746/Flurryz#7575: r.help
+[19.8905789852142334] 2018-06-12 18:52:53,857 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.3 -> [LEAVE, MOVE]
+[19.8910808563232422] 2018-06-12 18:52:53,857 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 2949 in on_voice_state_update: 238470567416692746/Flurryz#7575 has left KKK | v3.0 - Cam's Regime kek/Main 0.1
+[21.5047631263732910] 2018-06-12 18:52:55,471 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.3 -> [UNMUTE]
+[177.1862561702728271] 2018-06-12 18:55:31,152 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [LEAVE, DISCONNECT]
+[177.1867568492889404] 2018-06-12 18:55:31,153 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has left KKK | v3.0 - Cam's Regime kek/Main 0.1
+[178.3122651576995850] 2018-06-12 18:55:32,278 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(28196), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, CONNECT]
+[178.3127701282501221] 2018-06-12 18:55:32,279 - INFO - musicbot.bot | In bot.py::MainThread(28196), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1

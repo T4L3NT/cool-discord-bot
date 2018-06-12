@@ -1,0 +1,202 @@
+[41.611194611] 2018-06-12 18:12:24,852 - INFO - launcher: Starting sanity checks
+[42.112350464] 2018-06-12 18:12:24,853 - INFO - launcher: Checking for Python 3.5+
+[42.641878128] 2018-06-12 18:12:24,853 - INFO - launcher: Checking console encoding
+[43.115615845] 2018-06-12 18:12:24,854 - INFO - launcher: Setting console encoding to UTF-8
+[43.622732162] 2018-06-12 18:12:24,854 - INFO - launcher: Ensuring we're in the right environment
+[44.620275497] 2018-06-12 18:12:24,855 - INFO - launcher: Adding local bins/ folder to path
+[45.625448227] 2018-06-12 18:12:24,856 - INFO - launcher: Required checks passed.
+[47.125339508] 2018-06-12 18:12:24,858 - INFO - launcher: Optional checks passed.
+[47.626972198] 2018-06-12 18:12:24,858 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.1320419311523438] 2018-06-12 18:12:25,943 - WARNING - musicbot.config | In config.py::MainThread(14492), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1325507164001465] 2018-06-12 18:12:25,943 - INFO - musicbot.config | In config.py::MainThread(14492), line 123 in run_checks: Using i18n: config/i18n/en.json
+[1.1355834007263184] 2018-06-12 18:12:25,946 - DEBUG - musicbot.json | In json.py::MainThread(14492), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.4418652057647705] 2018-06-12 18:12:26,252 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 227 in _setup_logging: Set logging level to INFO
+[1.4418652057647705] 2018-06-12 18:12:26,252 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 84 in __init__: Starting MusicBot 1.9.7
+[1.4423668384552002] 2018-06-12 18:12:26,253 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 90 in __init__: Loaded autoplaylist with 2529 entries
+[3.8107306957244873] 2018-06-12 18:12:28,621 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1074 in on_ready: Connection established, ready to go.
+[3.8112003803253174] 2018-06-12 18:12:28,622 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 339 in _cache_app_info: Caching app info
+[3.8698563575744629] 2018-06-12 18:12:28,680 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[3.8713603019714355] 2018-06-12 18:12:28,682 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 905 in _scheck_server_permissions: Checking server permissions
+[3.8718626499176025] 2018-06-12 18:12:28,682 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[3.8718626499176025] 2018-06-12 18:12:28,682 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 913 in _scheck_configs: Validating config
+[3.8718626499176025] 2018-06-12 18:12:28,682 - DEBUG - musicbot.config | In config.py::MainThread(14492), line 212 in async_validate: Validating options...
+[3.8718626499176025] 2018-06-12 18:12:28,682 - DEBUG - musicbot.config | In config.py::MainThread(14492), line 226 in async_validate: Acquired owner id via API
+[3.8723635673522949] 2018-06-12 18:12:28,683 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 916 in _scheck_configs: Validating permissions config
+[3.8723635673522949] 2018-06-12 18:12:28,683 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14492), line 64 in async_validate: Validating permissions...
+[3.8723635673522949] 2018-06-12 18:12:28,683 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14492), line 68 in async_validate: Fixing automatic owner group
+[3.8723635673522949] 2018-06-12 18:12:28,683 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 1091 in on_ready: Connected: 455886394796146698/Zero#7592
+[3.8733658790588379] 2018-06-12 18:12:28,684 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 1099 in on_ready: Owner:     238470567416692746/Flurryz#7575
+
+[3.8738675117492676] 2018-06-12 18:12:28,684 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 1102 in on_ready: Server List:
+[3.8743691444396973] 2018-06-12 18:12:28,685 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 1105 in on_ready:  - KKK | v3.0 - Cam's Regime kek
+[3.8753716945648193] 2018-06-12 18:12:28,686 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 1151 in on_ready: Not bound to any text channels
+[3.8758723735809326] 2018-06-12 18:12:28,686 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 1177 in on_ready: Not autojoining any voice channels
+[3.8778779506683350] 2018-06-12 18:12:28,688 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 272 in _join_startup_channels: Found owner in "Main 0.1"
+[3.8783788681030273] 2018-06-12 18:12:28,689 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 281 in _join_startup_channels: Attempting to join KKK | v3.0 - Cam's Regime kek/Main 0.1
+[3.8793883323669434] 2018-06-12 18:12:28,690 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 452 in get_voice_client: Connection attempt 1 to Main 0.1
+[3.8793883323669434] 2018-06-12 18:12:28,690 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[3.8799002170562744] 2018-06-12 18:12:28,690 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[3.8804225921630859] 2018-06-12 18:12:28,691 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[3.9300174713134766] 2018-06-12 18:12:28,741 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 455886394796146698/Zero#7592 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, CONNECT]
+[3.9300174713134766] 2018-06-12 18:12:28,741 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 455886394796146698/Zero#7592 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[3.9310200214385986] 2018-06-12 18:12:28,742 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[3.9891741275787354] 2018-06-12 18:12:28,800 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[4.5164725780487061] 2018-06-12 18:12:29,327 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[4.5169739723205566] 2018-06-12 18:12:29,328 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 478 in get_voice_client: Connected in 0.6s
+[4.5169739723205566] 2018-06-12 18:12:29,328 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 479 in get_voice_client: Connected to KKK | v3.0 - Cam's Regime kek/Main 0.1
+[4.5179767608642578] 2018-06-12 18:12:29,329 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 849 in deserialize_queue: Deserializing queue for 224570641326538753
+[4.6708824634552002] 2018-06-12 18:12:29,481 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 570 in get_player: Created player via deserialization for server 224570641326538753 with 0 entries
+[4.6713836193084717] 2018-06-12 18:12:29,482 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 297 in _join_startup_channels: Joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[4.6723859310150146] 2018-06-12 18:12:29,483 - VOICEDEBUG - musicbot.player | In player.py::MainThread(14492), line 373 in websocket_check: Starting websocket check loop for KKK | v3.0 - Cam's Regime kek
+[12.5181527137756348] 2018-06-12 18:12:37,329 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 238470567416692746/Flurryz#7575: r.leave
+[12.9926640987396240] 2018-06-12 18:12:37,803 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 455886394796146698/Zero#7592 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [DISCONNECT]
+[16.4673979282379150] 2018-06-12 18:12:41,278 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 238470567416692746/Flurryz#7575: r.join
+[16.4689047336578369] 2018-06-12 18:12:41,279 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2019 in cmd_join: Joining KKK | v3.0 - Cam's Regime kek/Main 0.1
+[16.4694058895111084] 2018-06-12 18:12:41,280 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 452 in get_voice_client: Connection attempt 1 to Main 0.1
+[16.4694058895111084] 2018-06-12 18:12:41,280 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[16.4694058895111084] 2018-06-12 18:12:41,280 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[16.4699068069458008] 2018-06-12 18:12:41,280 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[16.7066259384155273] 2018-06-12 18:12:41,517 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 455886394796146698/Zero#7592 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, CONNECT]
+[16.7071270942687988] 2018-06-12 18:12:41,518 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 455886394796146698/Zero#7592 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[16.7081286907196045] 2018-06-12 18:12:41,519 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[16.7402155399322510] 2018-06-12 18:12:41,551 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[17.4453129768371582] 2018-06-12 18:12:42,256 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[17.4453129768371582] 2018-06-12 18:12:42,256 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 478 in get_voice_client: Connected in 1.0s
+[17.4453129768371582] 2018-06-12 18:12:42,256 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 479 in get_voice_client: Connected to KKK | v3.0 - Cam's Regime kek/Main 0.1
+[17.4468169212341309] 2018-06-12 18:12:42,257 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 849 in deserialize_queue: Deserializing queue for 224570641326538753
+[17.4628601074218750] 2018-06-12 18:12:42,273 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 570 in get_player: Created player via deserialization for server 224570641326538753 with 0 entries
+[17.4633920192718506] 2018-06-12 18:12:42,274 - WARNING - musicbot.json | In json.py::MainThread(14492), line 26 in get: Could not grab data from i18n key cmd-join-reply.
+[17.4648654460906982] 2018-06-12 18:12:42,275 - VOICEDEBUG - musicbot.player | In player.py::MainThread(14492), line 373 in websocket_check: Starting websocket check loop for KKK | v3.0 - Cam's Regime kek
+[77.2981293201446533] 2018-06-12 18:13:42,109 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 138453072522379265/KillerCoolAid#4479 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, CONNECT]
+[77.2986309528350830] 2018-06-12 18:13:42,109 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 138453072522379265/KillerCoolAid#4479 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[110.5240552425384521] 2018-06-12 18:14:15,335 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 238470567416692746/Flurryz#7575: r.help
+[365.9655973911285400] 2018-06-12 18:18:30,776 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 224585843640238080/im smarter than u.#4471: r.play black niggers
+[366.5832655429840088] 2018-06-12 18:18:31,394 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:black niggers', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'black niggers', 'webpage_url_basename': 'black niggers', 'extractor_key': 'Generic'}
+[369.6818983554840088] 2018-06-12 18:18:34,492 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[369.6834032535552979] 2018-06-12 18:18:34,494 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[369.6854078769683838] 2018-06-12 18:18:34,496 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=OFnF1c2Tbfw
+[371.4366855621337891] 2018-06-12 18:18:36,247 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=OFnF1c2Tbfw
+[371.6749053001403809] 2018-06-12 18:18:36,485 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube-OFnF1c2Tbfw-Where_did_the_N-word_come_from.webm
+[371.6749053001403809] 2018-06-12 18:18:36,485 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-OFnF1c2Tbfw-Where_did_the_N-word_come_from.webm
+[371.7186896800994873] 2018-06-12 18:18:36,529 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[389.5109417438507080] 2018-06-12 18:18:54,322 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 224585843640238080/im smarter than u.#4471: r.skip
+[389.5209689140319824] 2018-06-12 18:18:54,332 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[402.7535452842712402] 2018-06-12 18:19:07,564 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.help
+[403.9602644443511963] 2018-06-12 18:19:08,771 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.help
+[404.8156020641326904] 2018-06-12 18:19:09,626 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.help
+[407.7612922191619873] 2018-06-12 18:19:12,572 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 224585843640238080/im smarter than u.#4471: r.play despacito
+[407.8229510784149170] 2018-06-12 18:19:12,634 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:despacito', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'despacito', 'webpage_url_basename': 'despacito', 'extractor_key': 'Generic'}
+[410.7777945995330811] 2018-06-12 18:19:15,588 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.perms
+[412.9507722854614258] 2018-06-12 18:19:17,761 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[412.9532797336578369] 2018-06-12 18:19:17,764 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[412.9553005695343018] 2018-06-12 18:19:17,766 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 196 in _download: Download cached: https://www.youtube.com/watch?v=kJQP7kiw5Fk
+[414.9452908039093018] 2018-06-12 18:19:19,756 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube-kJQP7kiw5Fk-Luis_Fonsi_-_Despacito_ft._Daddy_Yankee.webm
+[414.9457898139953613] 2018-06-12 18:19:19,756 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-kJQP7kiw5Fk-Luis_Fonsi_-_Despacito_ft._Daddy_Yankee.webm
+[414.9528086185455322] 2018-06-12 18:19:19,763 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[417.8566462993621826] 2018-06-12 18:19:22,667 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play bloody stream
+[417.9173066616058350] 2018-06-12 18:19:22,728 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:bloody stream', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'bloody stream', 'webpage_url_basename': 'bloody stream', 'extractor_key': 'Generic'}
+[421.2523646354675293] 2018-06-12 18:19:26,063 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[421.2538681030273438] 2018-06-12 18:19:26,064 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[421.2563755512237549] 2018-06-12 18:19:26,067 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=KoY66lqmcYA
+[423.8315048217773438] 2018-06-12 18:19:28,642 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=KoY66lqmcYA
+[454.7026650905609131] 2018-06-12 18:19:59,513 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 224585843640238080/im smarter than u.#4471: r.skip
+[454.7146983146667480] 2018-06-12 18:19:59,525 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube-KoY66lqmcYA-Bloody_Stream.webm
+[454.7146983146667480] 2018-06-12 18:19:59,525 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-KoY66lqmcYA-Bloody_Stream.webm
+[454.7222185134887695] 2018-06-12 18:19:59,533 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[454.7237203121185303] 2018-06-12 18:19:59,534 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[460.4904472827911377] 2018-06-12 18:20:05,301 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 224585843640238080/im smarter than u.#4471: r.skip
+[460.5034861564636230] 2018-06-12 18:20:05,314 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[462.0102176666259766] 2018-06-12 18:20:06,821 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 224585843640238080/im smarter than u.#4471: r.skip
+[462.0112190246582031] 2018-06-12 18:20:06,822 - ERROR - musicbot.bot | In bot.py::MainThread(14492), line 2863 in on_message: Error in skip: CommandError: Can't skip! The player is not playing!
+Traceback (most recent call last):
+  File "C:\Users\Joe\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Joe\MusicBot\musicbot\bot.py", line 2158, in cmd_skip
+    raise exceptions.CommandError(self.str.get('cmd-skip-none', "Can't skip! The player is not playing!"), expire_in=20)
+musicbot.exceptions.CommandError: Can't skip! The player is not playing!
+[474.3801245689392090] 2018-06-12 18:20:19,191 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play jojo sono chi no sadame
+[474.4468021392822266] 2018-06-12 18:20:19,257 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:jojo sono chi no sadame', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'jojo sono chi no sadame', 'webpage_url_basename': 'jojo sono chi no sadame', 'extractor_key': 'Generic'}
+[477.7671668529510498] 2018-06-12 18:20:22,578 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[477.7686715126037598] 2018-06-12 18:20:22,579 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[477.7696738243103027] 2018-06-12 18:20:22,580 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=yI3pg_YJnPM
+[479.7756121158599854] 2018-06-12 18:20:24,586 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[481.3230900764465332] 2018-06-12 18:20:26,134 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=yI3pg_YJnPM
+[481.3255970478057861] 2018-06-12 18:20:26,136 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-yI3pg_YJnPM-Jojo_Sono_Chino_Sadame.webm
+[481.3321154117584229] 2018-06-12 18:20:26,143 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[553.3433651924133301] 2018-06-12 18:21:38,154 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play end of za warudo
+[553.4676959514617920] 2018-06-12 18:21:38,278 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:end of za warudo', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'end of za warudo', 'webpage_url_basename': 'end of za warudo', 'extractor_key': 'Generic'}
+[556.5529572963714600] 2018-06-12 18:21:41,364 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[556.5544316768646240] 2018-06-12 18:21:41,365 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[556.5564365386962891] 2018-06-12 18:21:41,367 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=z1OpA4qeIzI
+[558.4981391429901123] 2018-06-12 18:21:43,309 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=z1OpA4qeIzI
+[575.0914824008941650] 2018-06-12 18:21:59,902 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play crazy noise bizzare town
+[575.1441714763641357] 2018-06-12 18:21:59,955 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:crazy noise bizzare town', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'crazy noise bizzare town', 'webpage_url_basename': 'crazy noise bizzare town', 'extractor_key': 'Generic'}
+[578.5175747871398926] 2018-06-12 18:22:03,328 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[584.4331111907958984] 2018-06-12 18:22:09,244 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play roundabout
+[584.5258569717407227] 2018-06-12 18:22:09,336 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:roundabout', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'roundabout', 'webpage_url_basename': 'roundabout', 'extractor_key': 'Generic'}
+[587.7056980133056641] 2018-06-12 18:22:12,516 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[593.9621207714080811] 2018-06-12 18:22:18,773 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.skip
+[593.9756565093994141] 2018-06-12 18:22:18,786 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[593.9756565093994141] 2018-06-12 18:22:18,786 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube-z1OpA4qeIzI-JoJo_s_Bizarre_Adventure_OP_4_with_sound_effects_End_of_The_World.webm
+[593.9761581420898438] 2018-06-12 18:22:18,787 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-z1OpA4qeIzI-JoJo_s_Bizarre_Adventure_OP_4_with_sound_effects_End_of_The_World.webm
+[593.9886922836303711] 2018-06-12 18:22:18,799 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[593.9906973838806152] 2018-06-12 18:22:18,801 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=nNQ-Qi7pBpw
+[593.9916999340057373] 2018-06-12 18:22:18,802 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[597.0087230205535889] 2018-06-12 18:22:21,819 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=nNQ-Qi7pBpw
+[606.0963797569274902] 2018-06-12 18:22:30,907 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.skip
+[606.1124212741851807] 2018-06-12 18:22:30,923 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[606.1124212741851807] 2018-06-12 18:22:30,923 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube-nNQ-Qi7pBpw-Crazy_Noisy_Bizarre_Town_taiga.webm
+[606.1129221916198730] 2018-06-12 18:22:30,924 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-nNQ-Qi7pBpw-Crazy_Noisy_Bizarre_Town_taiga.webm
+[606.1209442615509033] 2018-06-12 18:22:30,932 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[606.1229496002197266] 2018-06-12 18:22:30,934 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=-Tdu4uKSZ3M
+[606.1269602775573730] 2018-06-12 18:22:30,938 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[614.2888724803924561] 2018-06-12 18:22:39,099 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=-Tdu4uKSZ3M
+[686.7714738845825195] 2018-06-12 18:23:51,582 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [MUTE, DEAFEN]
+[787.2621917724609375] 2018-06-12 18:25:32,073 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.2 -> [LEAVE, MOVE]
+[787.2626926898956299] 2018-06-12 18:25:32,073 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has left KKK | v3.0 - Cam's Regime kek/Main 0.1
+[792.6627151966094971] 2018-06-12 18:25:37,473 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube--Tdu4uKSZ3M-Yes_-_Roundabout.webm
+[792.6627151966094971] 2018-06-12 18:25:37,473 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube--Tdu4uKSZ3M-Yes_-_Roundabout.webm
+[792.6692121028900146] 2018-06-12 18:25:37,480 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[792.6702151298522949] 2018-06-12 18:25:37,481 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[792.9702899456024170] 2018-06-12 18:25:37,781 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [UNMUTE, UNDEAFEN]
+[815.3210587501525879] 2018-06-12 18:26:00,132 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, MOVE]
+[815.3210587501525879] 2018-06-12 18:26:00,132 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[910.6064195632934570] 2018-06-12 18:27:35,417 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play bloody stream
+[910.7217776775360107] 2018-06-12 18:27:35,532 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:bloody stream', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'bloody stream', 'webpage_url_basename': 'bloody stream', 'extractor_key': 'Generic'}
+[914.0275826454162598] 2018-06-12 18:27:38,838 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[914.0295886993408203] 2018-06-12 18:27:38,840 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[914.0316042900085449] 2018-06-12 18:27:38,842 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 196 in _download: Download cached: https://www.youtube.com/watch?v=KoY66lqmcYA
+[915.2114782333374023] 2018-06-12 18:27:40,022 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.skip
+[915.2319386005401611] 2018-06-12 18:27:40,043 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for audio_cache\youtube-KoY66lqmcYA-Bloody_Stream.webm
+[915.2319386005401611] 2018-06-12 18:27:40,043 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-KoY66lqmcYA-Bloody_Stream.webm
+[915.2369532585144043] 2018-06-12 18:27:40,048 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[915.2379539012908936] 2018-06-12 18:27:40,049 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[922.9059162139892578] 2018-06-12 18:27:47,717 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.skip
+[922.9194412231445312] 2018-06-12 18:27:47,730 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[927.1453166007995605] 2018-06-12 18:27:51,956 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 138453072522379265/KillerCoolAid#4479: r.play all jojos openings
+[927.2290389537811279] 2018-06-12 18:27:52,040 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:all jojos openings', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'all jojos openings', 'webpage_url_basename': 'all jojos openings', 'extractor_key': 'Generic'}
+[930.6757864952087402] 2018-06-12 18:27:55,486 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[930.6772913932800293] 2018-06-12 18:27:55,488 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[930.6797974109649658] 2018-06-12 18:27:55,490 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=fX_0ECJp4GM
+[932.6841731071472168] 2018-06-12 18:27:57,495 - DEBUG - musicbot.entry | In entry.py::MainThread(14492), line 54 in get_ready_future: Created future for None
+[937.5418212413787842] 2018-06-12 18:28:02,352 - INFO - musicbot.entry | In entry.py::MainThread(14492), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=fX_0ECJp4GM
+[937.5448298454284668] 2018-06-12 18:28:02,355 - FFMPEG - musicbot.player | In player.py::MainThread(14492), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fX_0ECJp4GM-JoJo_s_Bizarre_Adventure_All_Openings_1-8_HD.webm
+[937.5518519878387451] 2018-06-12 18:28:02,362 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[1283.6628172397613525] 2018-06-12 18:33:48,473 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2734 in on_message: 238470567416692746/Flurryz#7575: r.help
+[1319.6037712097167969] 2018-06-12 18:34:24,414 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [MUTE, DEAFEN]
+[1624.1801872253417969] 2018-06-12 18:39:28,991 - DEBUG - musicbot.bot | In bot.py::MainThread(14492), line 825 in serialize_queue: Serializing queue for 224570641326538753
+[1687.9416341781616211] 2018-06-12 18:40:32,752 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [UNMUTE, UNDEAFEN]
+[1718.6829950809478760] 2018-06-12 18:41:03,494 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [MUTE, DEAFEN]
+[2080.5712444782257080] 2018-06-12 18:47:05,382 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 203616648886878208/Daquan#6996 on KKK | v3.0 - Cam's Regime kek/Main 0.2 -> [LEAVE, MOVE]
+[2080.5717332363128662] 2018-06-12 18:47:05,382 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 203616648886878208/Daquan#6996 has left KKK | v3.0 - Cam's Regime kek/Main 0.1
+[2086.4612021446228027] 2018-06-12 18:47:11,272 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.2 -> [LEAVE, MOVE]
+[2086.4612021446228027] 2018-06-12 18:47:11,272 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has left KKK | v3.0 - Cam's Regime kek/Main 0.1
+[2116.8946006298065186] 2018-06-12 18:47:41,705 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [JOIN, MOVE]
+[2116.8951010704040527] 2018-06-12 18:47:41,706 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has joined KKK | v3.0 - Cam's Regime kek/Main 0.1
+[2205.2655942440032959] 2018-06-12 18:49:10,076 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 224585843640238080/im smarter than u.#4471 on KKK | v3.0 - Cam's Regime kek/Main 0.2 -> [LEAVE, MOVE]
+[2205.2660953998565674] 2018-06-12 18:49:10,077 - INFO - musicbot.bot | In bot.py::MainThread(14492), line 2949 in on_voice_state_update: 224585843640238080/im smarter than u.#4471 has left KKK | v3.0 - Cam's Regime kek/Main 0.1
+[2266.0147745609283447] 2018-06-12 18:50:10,825 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [UNMUTE, UNDEAFEN]
+[2268.4252963066101074] 2018-06-12 18:50:13,236 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14492), line 2938 in on_voice_state_update: Voice state update for 238470567416692746/Flurryz#7575 on KKK | v3.0 - Cam's Regime kek/Main 0.1 -> [MUTE]
