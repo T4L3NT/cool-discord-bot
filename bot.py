@@ -3062,4 +3062,4 @@ class MusicBot(discord.Client):
             self.server_specific_data[server]['availability_paused'] = True
             player.pause()
 
-	bot.run(str(os.environ['BOT_TOKEN'])
+bot.run(str(os.environ['BOT_TOKEN'])
