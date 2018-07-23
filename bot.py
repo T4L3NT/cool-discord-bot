@@ -37,7 +37,7 @@ from .permissions import Permissions, PermissionsDefaults
 from .constructs import SkipState, Response, VoiceStateUpdate
 from .utils import load_file, write_file, fixg, ftimedelta, _func_
 from .spotify import Spotify
-from .json import Json
+from .jason import Json
 
 from .constants import VERSION as BOTVERSION
 from .constants import DISCORD_MSG_CHAR_LIMIT, AUDIO_CACHE_PATH
