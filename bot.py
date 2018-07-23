@@ -25,9 +25,8 @@ from collections import defaultdict
 from discord.enums import ChannelType
 from discord.ext.commands.bot import _get_variable
 
-from  import exceptionse
-from  import downloader
-
+from  . import exceptionse
+from  . import downloads
 from .playlist import Playlist
 from .player import MusicPlayer
 from .entry import StreamPlaylistEntry
